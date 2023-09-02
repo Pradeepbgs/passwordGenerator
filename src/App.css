@@ -33,7 +33,13 @@ h1{
     border: none;
     border-radius: 10px;
     font-size: 20px;
+    transition: all 0.2s;
 }
+
+.input-container input:hover{
+    box-shadow: 0px 0px 8px 5px lightblue;
+}
+
 .input-container button{
     margin: 0px 8px;
     border-radius: 10px;
